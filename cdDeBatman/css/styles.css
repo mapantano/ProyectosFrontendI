@@ -1,0 +1,27 @@
+header {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: hsl(197, 100%, 24%);
+  background-color: hsl(0, 0%, 77%);
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 10px;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+footer{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #005677, 100 %;
+}
