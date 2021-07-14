@@ -1,9 +1,8 @@
-header {
+header{
   text-align: center;
 }
 
-h1,
-h2 {
+h1, h2 {
   color: hsl(197, 100%, 24%);
   background-color: hsl(0, 0%, 77%);
   font-family: "Times New Roman", Times, serif;
@@ -20,8 +19,15 @@ h2{
 }
 
 footer{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color: #005677, 100 %;
+  font-size: 20px;
+  color: white;
+  background-color: hsl(197, 100%, 24%);
+  text-align: center;
+}
+.NegritaCursiva {
+  font-weight: bold;
+  font-style: italic;
+}
+.negrita{
+  font-weight: bold;
 }
