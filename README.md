@@ -15,5 +15,5 @@ https://mapantano.github.io/ProyectosFrontendI/cvMAlejandraPantano/cvMAlejandraP
 Proyecto "Héroes"
 https://mapantano.github.io/ProyectosFrontendI/Heroes/heroes.html
 
-Proeyecto "Pizza"
+Proyecto "Pizza"
 https://mapantano.github.io/ProyectosFrontendI/pizza/index.html
