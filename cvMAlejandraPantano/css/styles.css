@@ -1,0 +1,11 @@
+/*Estilos Generales*/
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times,serif;
+    }
+a{
+    text-decoration: none;
+}
+.foto{
+    height: 200px;
+}

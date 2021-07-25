@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*Estilos Generales*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*header {
+    display: flex;
+    align-items: center;
+  }*/
+
+.ofertas-idioma {
+  background-color: #222222;
+  display: flex;
+  color: #f3f3f3;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.idioma{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
