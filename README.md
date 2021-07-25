@@ -10,7 +10,7 @@ Proyecto "CV de Batman"
 https://mapantano.github.io/ProyectosFrontendI/cvDeBatman/cvDeBatman.html
 
 Proyecto "CV"
-https://mapantano.github.io/ProyectosFrontendI/cvMAlejandraPantano/cvMAlejandraPantano.hatml
+https://mapantano.github.io/ProyectosFrontendI/cvMAlejandraPantano/cvMAlejandraPantano.html
 
 Proyecto "Héroes"
 https://mapantano.github.io/ProyectosFrontendI/Heroes/heroes.html
