@@ -1,11 +1,74 @@
 /*Estilos Generales*/
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
 body{
     margin: 0;
-    font-family: 'Times New Roman', Times,serif;
-    }
+    font-family: 'Georama', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
 a{
     text-decoration: none;
 }
 .foto{
     height: 200px;
+}
+
+header{
+    color:rgb(243, 234, 232);
+    display: flex;
+    background: url(/cvMAlejandraPantano/img/codigo1.jpg) 0px;
+    align-items: center;
+}
+.foto{
+    border-radius: 100%;
+    background-color: #93a116;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+h1{
+    font-size: 2.5rem;
+padding: 2rem;}
+
+h2, footer{
+    color:rgb(243, 234, 232);
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    background: url(/cvMAlejandraPantano/img/codigo.jpg) 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+}
+ul, dl{
+    text-decoration: none;
+    list-style:none;
+    padding: 2rem;
+}
+.negrita{
+    font-weight: bolder;
+    font-size: large;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+i{
+    color: #93a116;
+    padding: 0.5rem;
+    font-size: 2.5rem;
 }
