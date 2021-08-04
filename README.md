@@ -8,3 +8,12 @@ https://mapantano.github.io/ProyectosFrontendI/petShop/petShop.html
 
 Proyecto "CV de Batman"
 https://mapantano.github.io/ProyectosFrontendI/cvDeBatman/cvDeBatman.html
+
+Proyecto "CV"
+https://mapantano.github.io/ProyectosFrontendI/cvMAlejandraPantano/cvMAlejandraPantano.html
+
+Proyecto "Héroes"
+https://mapantano.github.io/ProyectosFrontendI/Heroes/heroes.html
+
+Proyecto "Pizza"
+https://mapantano.github.io/ProyectosFrontendI/pizza/index.html
