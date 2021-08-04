@@ -25,7 +25,7 @@ a{
 header{
     color:rgb(243, 234, 232);
     display: flex;
-    background: url('/cvMAlejandraPantano/img/codigo1.jpg') 0px;
+    background: url('../img/codigo1.jpg') 0px;
     align-items: center;
 }
 .foto{
@@ -42,7 +42,7 @@ h2, footer{
     color:rgb(243, 234, 232);
     font-size: 1.5rem;
     padding: 0.75rem;
-    background: url('/cvMAlejandraPantano/img/codigo1.jpg') 0px;
+    background: url('../img/codigo1.jpg') 0px;
 }
 main{
     display: flex;
