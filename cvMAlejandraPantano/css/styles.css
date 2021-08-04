@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: "Georama", sans-serif;
   color: black;
-  background: rgb(226, 249, 184);
+  background: #CFE6AD;
   display: flex;
   flex-direction: column;
 }
@@ -89,14 +89,17 @@ i {
 @media screen and (max-width: 480px){
     header{
         flex-direction:column;
-        background-position:unset;
+        align-items: center;
+        justify-content: center;
+        background-position:top;
+        text-align: center;
 
             }
         .foto {
             height: 10rem;
             }
         h1{
-            padding: 1.5rem;
+            padding: 1rem;
             font-size: 2rem
         }
         h2{
