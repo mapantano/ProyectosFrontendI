@@ -13,25 +13,60 @@ a {
   color: inherit;
 }
 
-/*header {
-    display: flex;
-    align-items: center;
-  }*/
-
 .ofertas-idioma {
   background-color: #222222;
   display: flex;
   color: #f3f3f3;
   justify-content: space-between;
-  padding: 15px;
+  align-items: center;
+  height: 2rem;
+  padding-left: 10%;
+  padding-right: 2%;
 }
 
-.idioma{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
+.idioma {
+  display: flex;
+  padding: 5px;
+  align-items: center;
 }
 
+p {
+  padding-right: 10px;
+}
+
+.header-amarillo {
+  background-color: #f0a83e;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+H1{
+  color: #3C2313;
+  margin-left: 2rem;
+}
+H1>span{
+  color: #ffff;
+}
+.img-h1{
+  width: 25px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+li::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1b0";
+
+}
+
+.imagen-principal{
+width: 100%;
+}
 
 body {
   font-family: "Roboto", sans-serif;
