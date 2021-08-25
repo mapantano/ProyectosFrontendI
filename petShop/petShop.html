@@ -61,21 +61,64 @@
         <div class="texto-banner">
           <p class="texto-fondo-blanco">¡Es un placer tenerte aquí!</p>
           <p class="segunda-linea">¡Comederos en descuento!</p>
-          <p class="boton">COMEDEROS</p>
+          <a href="comederos"><p class="boton">COMEDEROS</p></a>
         </div>
       </section>
-      <section>
-        <img src="img/pawprint 1.svg" alt="patita" />
+      <section class="productos-destacados">
+        <img class="patita" src="img/pawprint 1.svg" alt="patita" />
         <h2>Productos Destacados</h2>
-        <p>Comederos - Accesorios -Comidas</p>
+        <p class="epigrafe">Comederos - Accesorios - Comidas</p>
+        <div class="productos">
+          <div class="producto-x">
+            <img src="img/churrasquito.svg" alt="churrasquito" />
+            <p>Juguete Churrasquito</p>
+            <p class="precio">$150</p>
+          </div>
+          <div class="producto-x">
+            <img src="img/comedero.svg" alt="comedero" />
+            <p>Comedero</p>
+            <p class="precio">$150</p>
+          </div>
+          <div class="producto-x">
+            <img src="img/Huesito.svg" alt="Huesito" />
+            <p>Huesito</p>
+            <p class="precio">$200</p>
+          </div>
+        </div>
       </section>
-      <section>
-        <img src="img/churrasquito.svg" alt="churrasquito" />
-        <p>Juguete Churrasquito $150</p>
-        <img src="img/comedero.svg" alt="comedero" />
-        <p>Comedero $150</p>
-        <img src="img/Huesito.svg" alt="Huesito" />
-        <p>Huesito $200</p>
+      <section class="contactanos">
+        <h2>Contáctanos</h2>
+        <form action="contacto" method="POST">
+          <label for="nombre">Nombre y Apelido</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre y apellido"
+            placeholder="Nombre y Apellido"
+            required
+            autofocus
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ingresá tu correo electrónico"
+            required
+          />
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            placeholder="Teléfono"
+            required
+          />
+          <div class="botones">
+            <button class="reset" type="reset">Resetear</button>
+            <button class="envio" type="submit">Enviar</button>
+          </div>
+        </form>
       </section>
     </main>
     <footer>
