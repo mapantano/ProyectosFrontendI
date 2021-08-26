@@ -88,7 +88,7 @@
       </section>
       <section class="contactanos">
         <h2>Contáctanos</h2>
-        <form action="contacto" method="POST">
+        <form class="contacto" action="contacto" method="POST">
           <label for="nombre">Nombre y Apelido</label>
           <input
             type="text"
@@ -121,8 +121,58 @@
       </section>
     </main>
     <footer>
-      <hr />
-      <p>Todos los derechos reservados Front End</p>
+      <div class="footer-amarillo">
+        <h2>Suscríbete para más novedades</h2>
+        <form class="suscripcion" action="suscripcion" method="POST">
+          <input
+            class="diferente"
+            type="email"
+            id="suscripcion"
+            name="suscripcion"
+            placeholder="Ingresa tu correo electrónico"
+          />
+          <button class="boton-marron" type="submit">Suscribirme</button>
+        </form>
+      </div>
+      <div class="footer-marron">
+        <div class="contenedor-locacion">
+          <div class="locacion">
+            <div>
+              <img src="./img/iconolocation.png" alt="iconoLocacion" />
+            </div>
+            <div class="locacion-texto">
+              <h2>Localidad</h2>
+              <p>Calle - provincia</p>
+            </div>
+          </div>
+          <div class="locacion">
+            <div>
+              <img src="./img/iconotel.png" alt="iconoTel" />
+            </div>
+            <div class="locacion-texto">
+              <h2>Teléfono</h2>
+              <p>Número de teléfono</p>
+            </div>
+          </div>
+          <div class="locacion">
+            <div>
+              <img src="./img/iconoemail.png" alt="iconoemail" />
+            </div>
+            <div class="locacion-texto">
+              <h2>Correo Electrónico</h2>
+              <p>Dirección de correo</p>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-logo">
+          <h4>
+            <img class="img-h1" src="img/Cat.svg" alt="Gato" /> Front
+            <span> Cat&Dog </span>
+            <img class="img-h1" src="img/Dog.svg" alt="Perro" />
+          </h4>
+        </div>
+      </div>
+      <h3>Todos los derechos reservados Front End</h3>
     </footer>
   </body>
 </html>
