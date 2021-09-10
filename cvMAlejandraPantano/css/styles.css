@@ -6,9 +6,8 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  font-size: 18px;
+  font-size: 20px;
 }
-
 
 body {
   margin: 0;
@@ -65,10 +64,10 @@ main {
   justify-content: space-around;
   margin: 2rem 1rem;
   width: 200%;
-align-items: center;
+  align-items: center;
 }
-.contenedor{
-margin-left: 25%;
+.contenedor {
+  margin-left: 30%;
 }
 
 ul,
@@ -78,6 +77,7 @@ dl {
   text-decoration: none;
   list-style: none;
   padding: 2rem;
+  font-size: 1.5rem;
 }
 .negrita {
   font-weight: bolder;
@@ -89,15 +89,15 @@ footer {
   color: white;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   padding: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
   width: 100%;
 }
-h3{
+h3 {
   font-size: 1.5rem;
-padding: 1rem;
+  padding: 1rem;
 }
 i {
   color: rgb(135, 116, 245);
@@ -107,30 +107,28 @@ i {
 
 /* Responsive */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 480px){
-    header{
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-        background-position:top;
-        text-align: center;
-
-            }
-        .foto {
-            height: 10rem;
-            }
-        h1{
-            padding: 1rem;
-            font-size: 2rem
-        }
-        h2{
-            font-size: 1.1rem;
-        }
-        .contenedor{
-          margin-left: 0px;
-          }
-          
-    }
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top;
+    text-align: center;
+  }
+  .foto {
+    height: 10rem;
+  }
+  h1 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .contenedor {
+    margin-left: 0px;
+  }
+}
