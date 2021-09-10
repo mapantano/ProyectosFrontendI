@@ -5,15 +5,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+}
+html{
+  font-size: 25px;
 }
 
 body {
   margin: 0;
   font-family: "Georama", sans-serif;
   color: black;
-  background: #CFE6AD;
+  background: rgb(191, 183, 240);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -26,57 +32,76 @@ a {
 header {
   color: white;
   display: flex;
-  background-image: url("../img/codigo1.jpg");
-  background-position: center;
+  justify-content: center;
+  background-image: url("../img/fondo1.jpg");
   background-size: inherit;
   align-items: center;
   width: 100%;
 }
 .foto {
   border-radius: 100%;
-  background-color: #93a116;
-  padding: 0.5rem;
+  background-color: mediumslateblue;
   margin: 1rem;
+  border: mediumslateblue 0.35rem;
+  border-style: solid;
 }
 h1 {
   font-size: 2.5rem;
   padding: 2rem;
 }
 
-h2,
-footer {
+h2 {
   color: white;
   font-size: 1.5rem;
+  text-align: center;
   padding: 0.75rem;
-  background-image: url("../img/codigo1.jpg");
+  background-image: url("../img/fondo1.jpg");
   background-position: left;
+  border-radius: 15px;
+  width: 70rem;
 }
 main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 2rem 1rem;
+  width: 200%;
+align-items: center;
 }
+.contenedor{
+margin-left: 30%;
+}
+
 ul,
 dl {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   list-style: none;
   padding: 2rem;
 }
 .negrita {
   font-weight: bolder;
-  font-size: large;
 }
 footer {
+  background-image: url("../img/fondo1.jpg");
+  background-position: center;
+  background-size: inherit;
+  color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   padding: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
+  width: 100%;
+}
+h3{
+  font-size: 1.5rem;
+padding: 1rem;
 }
 i {
-  color: #93a116;
+  color: rgb(135, 116, 245);
   padding: 0.5rem;
   font-size: 2.5rem;
 }
