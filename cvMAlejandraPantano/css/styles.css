@@ -6,7 +6,9 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
+  font-size: 18px;
 }
+
 
 body {
   margin: 0;
@@ -55,7 +57,7 @@ h2 {
   background-image: url("../img/fondo1.jpg");
   background-position: left;
   border-radius: 15px;
-  width: 70rem;
+  width: 60rem;
 }
 main {
   display: flex;
@@ -66,7 +68,7 @@ main {
 align-items: center;
 }
 .contenedor{
-margin-left: 30%;
+margin-left: 25%;
 }
 
 ul,
