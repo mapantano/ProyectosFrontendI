@@ -24,6 +24,10 @@ body {
 
 /* Estilos header */
 
+.hamburguesa {
+  display: none;
+}
+
 .ofertas-idioma {
   background-color: #222222;
   display: flex;
@@ -41,6 +45,12 @@ body {
   padding: 5px;
   align-items: center;
   margin-right: 2%;
+}
+select {
+  background-color: transparent;
+  color: #f3f3f3;
+  border: none;
+  outline: none;
 }
 
 .header-amarillo {
@@ -90,8 +100,7 @@ header {
 .banner {
   height: 50px;
   background: darkslategrey
-    url("../img/bowl-and-pet-daities-on-green-background\ 1.jpg") no-repeat
-    center;
+    url("../img/bowl-and-pet-daities-on-green-background\ 1.jpg") no-repeat left;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -110,7 +119,7 @@ header {
   background-color: #ffffff;
   font-size: 2.6rem;
   color: #3c2313;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 5px;
   margin-right: 15px;
 }
@@ -273,34 +282,110 @@ footer > h3 {
   padding: 1.5rem;
 }
 
-.footer-marron{
+.footer-marron {
   background-color: #3c2313;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
-.contenedor-locacion{
-  width: 15%;
+.contenedor-locacion {
+  width: 50%;
 }
-.locacion{
+.locacion {
   display: flex;
   margin: 4rem;
 }
-.locacion>img{
+.locacion > img {
   padding: 2rem;
   width: 100%;
 }
-.locacion-texto>p{
-  color: #8A8787;
+.locacion-texto > p {
+  color: #8a8787;
   font-size: 1rem;
   width: 100%;
   margin-left: 20px;
 }
-h4{
+h4 {
   font-size: 2rem;
   margin-right: 4rem;
   color: #ffffff;
 }
-h4>span{
-  color: #F0A83E;
+h4 > span {
+  color: #f0a83e;
+}
+
+/* Estilos Mobile */
+
+@media screen and (max-width: 480px) {
+  .ofertas-idioma {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .hamburguesa {
+    display: flex;
+    color: #ffffff;
+    margin-right: 3rem;
+    font-size: 2rem;
+  }
+  .texto-banner {
+    right: 1rem;
+    width: 100%;
+  }
+  .productos {
+    align-items: center;
+    flex-direction: column;
+  }
+  .producto-x {
+  margin: unset;
+  }
+  .contactanos h2 {
+  margin-top: 2rem;
+  position: relative;
+  top: 2rem;
+  }
+  input {
+    width: 50%;
+  }
+  .botones {
+  width: 60%;
+  gap: 1rem;
+  }
+  .footer-amarillo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 13rem;
+  }
+  footer h2 {
+  width: 100%;
+  }
+  .diferente {
+  width: 25rem;
+  margin-left: 2rem;
+  }
+  .boton-marron{
+    width: 11rem;
+    height: 4rem;
+  }
+  .footer-marron {
+  flex-direction: column;
+  }
+  .contenedor-locacion {
+  margin-top: 6rem;
+  margin-bottom: 0px;
+  margin-right: 10rem;
+  }
+  h4 {
+  position: relative;
+  bottom: 44rem;
+  }
+  html {
+    font-size: 8px;
+  }
+  body{
+    width: 100%;
+  }
 }
