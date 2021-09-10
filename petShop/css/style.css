@@ -19,7 +19,7 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 /* Estilos header */
@@ -92,13 +92,12 @@ nav ul a li p::before {
   padding: 8%;
 }
 header {
-  max-width: 100%;
+  min-width: 100%;
 }
 
 /* Estilos Main*/
 
 .banner {
-  height: 50px;
   background: darkslategrey
     url("../img/bowl-and-pet-daities-on-green-background\ 1.jpg") no-repeat left;
   background-size: cover;
@@ -320,30 +319,43 @@ h4 > span {
   .ofertas-idioma {
     display: none;
   }
+  .header-amarillo{
+    height: 8rem;
+  }
   .nav {
     display: none;
   }
   .hamburguesa {
     display: flex;
     color: #ffffff;
-    margin-right: 3rem;
-    font-size: 2rem;
+    margin-right: 4rem;
+    font-size: 2.8rem;
   }
   .texto-banner {
     right: 1rem;
-    width: 100%;
+  }
+  .segunda-linea {
+  background-color:#9CD9B0;
+  border-radius: 5px;
+  margin: 0.8rem;
   }
   .productos {
     align-items: center;
     flex-direction: column;
   }
   .producto-x {
-  margin: unset;
+  margin: 1.5rem;
+  }
+  .contactanos{
+    width: 100%;
   }
   .contactanos h2 {
   margin-top: 2rem;
   position: relative;
   top: 2rem;
+  }
+  .contacto{
+    width: 100%;
   }
   input {
     width: 50%;
@@ -374,18 +386,15 @@ h4 > span {
   flex-direction: column;
   }
   .contenedor-locacion {
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 0px;
   margin-right: 10rem;
   }
   h4 {
   position: relative;
-  bottom: 44rem;
+  bottom: 47rem;
   }
   html {
     font-size: 8px;
-  }
-  body{
-    width: 100%;
   }
 }
