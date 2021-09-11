@@ -52,12 +52,12 @@ h3 {
   color: #fc200c;
   font-size: 1.5rem;
 }
-h2,
-h4 {
-  padding: 1.8rem;
+h2 {
+  padding: 2.5rem;
 }
 h4 {
   font-size: 1.2rem;
+  padding: 2rem;
 }
 
 .logo {
@@ -85,14 +85,14 @@ main {
   border-radius: 10px;
   width: 45%;
   min-width: 25rem;
-  height: 25rem;
+  height: 30rem;
 }
 .Podio {
   background-color: white;
   border-radius: 10px;
   width: 45%;
   min-width: 25rem;
-  height: 25rem;
+  height: 30rem;
 }
 .contenedor-podio {
   display: flex;
@@ -107,7 +107,7 @@ main {
   align-items: center;
   width: 90%;
   position: relative;
-  bottom: 6rem;
+  bottom: 8rem;
   font-weight: bold;
 }
 .lista > ol > li,
@@ -149,7 +149,7 @@ h3 {
     width: 100%;
     min-width: unset;
   }
-  .contenedor-podio{
-    margin-left:  1rem;
+  .contenedor-podio {
+    margin-left: 1rem;
   }
 }
