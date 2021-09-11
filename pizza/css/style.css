@@ -21,16 +21,20 @@ header nav ul {
   color: white;
   display: flex;
   align-items: center;
-
+  margin-right: 2rem;
+}
+.hamburguesa {
+  display: none;
 }
 
 nav ul li a {
-    padding:10px;
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color:  #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 header {
@@ -42,53 +46,110 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-h1, h2 {
-    color: #FC200C;
-    font-size: 24px;
+h1,
+h2,
+h3 {
+  color: #fc200c;
+  font-size: 1.5rem;
+}
+h2,
+h4 {
+  padding: 1.8rem;
+}
+h4 {
+  font-size: 1.2rem;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
 }
-main{
+.verde {
+  color: #39b24a;
+}
+.blanco {
+  color: white;
+}
+main {
   display: flex;
   margin: 2rem;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.Envio{
-background: darkgrey url('../img/delivery.jpg') no-repeat center;
-background-size: cover;
-border-radius: 10px;
-width: 40%;
-height: 25rem;
-}
-.Podio{
-  background-color:white ;
+.Envio {
+  background: darkgrey url("../img/delivery.jpg") no-repeat center;
+  background-size: cover;
   border-radius: 10px;
-  width: 40%;
+  width: 45%;
+  min-width: 25rem;
   height: 25rem;
 }
-.contenedor-podio{
+.Podio {
+  background-color: white;
+  border-radius: 10px;
+  width: 45%;
+  min-width: 25rem;
+  height: 25rem;
+}
+.contenedor-podio {
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  height: 100%;
 }
-.podio-y-img{
+.podio-y-img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 90%;
+  position: relative;
+  bottom: 6rem;
+  font-weight: bold;
 }
-footer{
+.lista > ol > li,
+footer > ul > li {
+  padding: 0.2rem;
+}
+footer {
   background-color: #222;
-color: white;
-height: 7rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  color: white;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > ul {
+  list-style-type: none;
+  margin: 1rem;
+}
+h3 {
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .hamburguesa {
+    display: unset;
+    color: white;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .Podio,
+  .Envio {
+    width: 100%;
+    min-width: unset;
+  }
+  .contenedor-podio{
+    margin-left:  1rem;
+  }
 }
