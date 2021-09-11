@@ -110,6 +110,11 @@ main {
   bottom: 8rem;
   font-weight: bold;
 }
+.ingredientes{
+  height: 12rem;
+  position: relative;
+  top: 2rem;
+}
 .lista > ol > li,
 footer > ul > li {
   padding: 0.2rem;
